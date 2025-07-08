@@ -4,7 +4,7 @@ from google.colab import userdata
 
 def commit(branch, message):
   try:
-    token = userdata.get('token') #Remember to store the token in the "Secrets" in Colab with name "token" and "Value" [ask MauriVass]
+    token = userdata.get('token') #IMPORTANT! Remember to store the token in the "Secrets" in Colab with name "token" and for "Value" use ... [ask MauriVass]
     user = "LimitParadigm" #You can change with your credentials
     email = "LimitParadigm@gmail.com" #You can change with your credentials
     
